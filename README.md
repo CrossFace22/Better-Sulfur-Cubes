@@ -1,8 +1,7 @@
 # Better Sulfur Cubes
 
-**Better Sulfur Cubes** adds four new custom archetypes to the Sulfur Cube, each triggered by
-equipping a specific block in its body slot. Each archetype gives the mob a unique behavior that
-reacts to its surroundings: collisions, surfaces, and the environment.
+**Better Sulfur Cubes** adds new custom archetypes to the Sulfur Cube, each triggered by
+equipping a specific block in its body slot. Each archetype gives the mob a unique behavior that reacts to its surroundings: collisions, surfaces, and the environment.
 
 ---
 
@@ -75,8 +74,7 @@ The Sulfur Cube turns completely solid, allowing players to stand and walk on to
 
 ## Configuration
 
-All four archetypes can be individually **enabled or disabled** by editing
-`config/better-sulfur-cubes.json` directly.
+All archetypes can be individually **enabled or disabled** by editing `config/better-sulfur-cubes.json` directly.
 
 ---
 
