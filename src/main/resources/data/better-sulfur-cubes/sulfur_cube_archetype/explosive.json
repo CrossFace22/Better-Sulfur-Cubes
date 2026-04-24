@@ -1,0 +1,30 @@
+{
+  "items": "#better-sulfur-cubes:sulfur_cube_archetype/explosive",
+  "attribute_modifiers": [
+    {
+      "attribute": "minecraft:knockback_resistance",
+      "id": "better-sulfur-cubes:explosive_add_knockback_resistance",
+      "amount": 0.5,
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:bounciness",
+      "id": "better-sulfur-cubes:explosive_add_bounciness",
+      "amount": -0.3,
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:friction_modifier",
+      "id": "better-sulfur-cubes:explosive_mul_friction_modifier",
+      "amount": 0.3,
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "minecraft:knockback_resistance",
+      "id": "better-sulfur-cubes:explosive_add_knockback_resistance",
+      "amount": -1.0,
+      "operation": "add_value"
+    }
+  ],
+  "buoyant": true
+}

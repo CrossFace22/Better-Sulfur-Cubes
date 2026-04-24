@@ -1,0 +1,12 @@
+{
+  "items": "#better-sulfur-cubes:sulfur_cube_archetype/twinkle",
+  "attribute_modifiers": [
+    {
+      "amount": -0.5,
+      "attribute": "minecraft:knockback_resistance",
+      "id": "minecraft:twinkle_add_knockback_resistance",
+      "operation": "add_value"
+    }
+  ],
+  "buoyant": true
+}

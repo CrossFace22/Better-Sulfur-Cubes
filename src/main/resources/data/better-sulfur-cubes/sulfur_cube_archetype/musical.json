@@ -1,0 +1,30 @@
+{
+  "items": "#better-sulfur-cubes:sulfur_cube_archetype/musical",
+  "attribute_modifiers": [
+    {
+      "attribute": "minecraft:bounciness",
+      "id": "better-sulfur-cubes:musical_add_bounciness",
+      "amount": 0.6,
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:friction_modifier",
+      "id": "better-sulfur-cubes:musical_mul_friction_modifier",
+      "amount": -0.4,
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "minecraft:air_drag_modifier",
+      "id": "better-sulfur-cubes:musical_mul_air_drag_modifier",
+      "amount": -0.5,
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "minecraft:knockback_resistance",
+      "id": "better-sulfur-cubes:musical_add_knockback_resistance",
+      "amount": -1.0,
+      "operation": "add_value"
+    }
+  ],
+  "buoyant": true
+}

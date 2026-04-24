@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "net.crossface22.bettersulfurcubes.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"BlockModelRenderStateMixin",
+		"SulfurCubeRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

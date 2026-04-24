@@ -1,0 +1,16 @@
+{
+  "config.better-sulfur-cubes.title": "Better Sulfur Cubes",
+  "config.better-sulfur-cubes.adhesive": "Adhesive (Honey Block)",
+  "config.better-sulfur-cubes.explosive": "Explosive (TNT)",
+  "config.better-sulfur-cubes.musical": "Musical (Note Block)",
+  "config.better-sulfur-cubes.twinkle": "Twinkle (Redstone Lamp / Copper Bulb)",
+  "config.better-sulfur-cubes.on": "ON",
+  "config.better-sulfur-cubes.off": "OFF",
+  "tag.item.better-sulfur-cubes:sulfur_cube_archetype/adhesive": "Adhesive Sulfur Cube Archetype",
+  "tag.item.better-sulfur-cubes:sulfur_cube_archetype/explosive": "Explosive Sulfur Cube Archetype",
+  "tag.item.better-sulfur-cubes:sulfur_cube_archetype/musical": "Musical Sulfur Cube Archetype",
+  "tag.item.better-sulfur-cubes:sulfur_cube_archetype/twinkle": "Twinkle Sulfur Cube Archetype",
+  "tag.item.better-sulfur-cubes:sulfur_cube_archetype/redstone": "Redstone Sulfur Cube Archetype",
+  "tag.item.better-sulfur-cubes:sulfur_cube_archetype/painful": "Painful Sulfur Cube Archetype",
+  "tag.item.better-sulfur-cubes:sulfur_cube_archetype/solid": "Solid Sulfur Cube Archetype"
+}

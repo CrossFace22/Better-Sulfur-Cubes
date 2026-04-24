@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "net.crossface22.bettersulfurcubes.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"AbstractCubeMobMixin",
+		"LevelRedstoneSignalMixin",
+		"LivingEntitySolidMixin",
+		"SulfurCubeMixin",
+		"EntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
