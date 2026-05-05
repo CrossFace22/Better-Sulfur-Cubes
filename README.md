@@ -56,14 +56,6 @@ A Sulfur Cube wearing a Redstone Block acts as a mobile power source. It emits a
 
 ---
 
-### Painful - *Magma Block / Cactus*
-
-![Painful archetype](https://cdn.modrinth.com/data/cached_images/fbe6307ec59fdd960269336fa874e962612c25a3.png)
-
-This Sulfur Cube is dangerous. Any mob or player that collides with this cube will take contact damage.
-
----
-
 ### Solid - *Purpur Blocks*
 
 ![Solid archetype](https://cdn.modrinth.com/data/cached_images/2ae37f6fecb17741e87f1db636bd6f2ef4629a82.png)
@@ -78,8 +70,11 @@ All archetypes can be individually **enabled or disabled** by editing `config/be
 
 ---
 
-## Requirements
+## 📦 Requirements
 
-- **Minecraft** 26.2-snapshot-4
+- **Minecraft** 26.2-snapshot-6
 - **Fabric Loader** ≥ 0.19.2
 - **Fabric API**
+
+## 🐛 Found a bug?
+-> [Issues Page](https://github.com/CrossFace22/Better-Sulfur-Cubes/issues)

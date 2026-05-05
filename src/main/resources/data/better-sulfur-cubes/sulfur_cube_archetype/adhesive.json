@@ -18,13 +18,11 @@
       "id": "better-sulfur-cubes:adhesive_add_knockback_resistance",
       "amount": -0.5,
       "operation": "add_value"
-    },
-    {
-      "attribute": "minecraft:knockback_resistance",
-      "id": "better-sulfur-cubes:adhesive_add_knockback_resistance",
-      "amount": -1.0,
-      "operation": "add_value"
     }
   ],
-  "buoyant": false
+  "buoyant": false,
+  "knockback_modifiers": {
+    "horizontal_power": 0.73,
+    "vertical_power": 0.09
+  }
 }

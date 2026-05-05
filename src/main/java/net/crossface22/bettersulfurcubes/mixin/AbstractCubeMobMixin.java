@@ -17,13 +17,11 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.monster.cubemob.AbstractCubeMob;
 import net.minecraft.world.entity.monster.cubemob.SulfurCube;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.FishingHook;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.component.BlockItemStateProperties;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -126,22 +124,6 @@ public abstract class AbstractCubeMobMixin extends AgeableMob implements BscSulf
         bsc$wasOnGround            = mob.onGround();
         bsc$wasHorizontalCollision = hitWall;
         bsc$wasVertCollision       = mob.verticalCollision && !mob.onGround();
-    }
-
-    @Inject(method = "push(Lnet/minecraft/world/entity/Entity;)V",
-            at = @At("HEAD"))
-    private void bsc$painfulOnPush(Entity other, CallbackInfo ci) {
-        if (!((Object) this instanceof SulfurCube cube)) return;
-
-        double movementThreshold = 0.05D;
-        if (cube.getDeltaMovement().lengthSqr() < movementThreshold) return;
-
-        ItemStack body = cube.getItemBySlot(EquipmentSlot.BODY);
-        if (BscConfig.INSTANCE.enablePainful && body.is(BscTags.PAINFUL)
-                && other instanceof LivingEntity target && !(other instanceof Player)
-                && cube.level() instanceof ServerLevel sl) {
-            target.hurtServer(sl, sl.damageSources().mobAttack(cube), 1.0f);
-        }
     }
 
     @Inject(method = "push(Lnet/minecraft/world/entity/Entity;)V",

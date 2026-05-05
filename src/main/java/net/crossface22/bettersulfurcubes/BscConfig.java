@@ -23,7 +23,6 @@ public final class BscConfig {
     public boolean enableMusical   = true;
     public boolean enableTwinkle   = true;
     public boolean enableRedstone  = true;
-    public boolean enablePainful   = true;
     public boolean enableSolid     = true;
 
     private static BscConfig load() {

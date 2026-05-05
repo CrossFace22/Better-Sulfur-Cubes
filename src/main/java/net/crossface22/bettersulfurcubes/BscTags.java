@@ -15,6 +15,5 @@ public final class BscTags {
 
     public static final TagKey<Item> TWINKLE  = archetype("twinkle");
     public static final TagKey<Item> REDSTONE = archetype("redstone");
-    public static final TagKey<Item> PAINFUL  = archetype("painful");
     public static final TagKey<Item> SOLID    = archetype("solid");
 }
